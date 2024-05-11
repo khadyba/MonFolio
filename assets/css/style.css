@@ -869,6 +869,7 @@ a:hover {
   border-radius: 1rem;
   margin-bottom: 3rem;
   text-align: center;
+  max-height: 360px;
 }
 
 .service-box:hover .ico-circle {
@@ -912,6 +913,7 @@ a:hover {
 .counter-box {
   color: #fff;
   text-align: center;
+  max-height: 250px;
 }
 
 @media (min-width: 577px) {
@@ -944,6 +946,7 @@ a:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+  max-height: 300px;
 }
 
 .work-box:hover img {
@@ -957,6 +960,11 @@ a:hover {
 
 .work-img img {
   transition: all 1s;
+}
+.work-img img {
+  width: 352px;
+  height: 200px;
+
 }
 
 .work-content {
