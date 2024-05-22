@@ -1020,6 +1020,7 @@ a:hover {
   background-color: #fff;
   opacity: 1;
   border: 1px solid #0078ff;
+  
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
@@ -1037,12 +1038,15 @@ a:hover {
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
+  max-width: 400px;
 }
 
 .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
+  
+
 }
 
 .portfolio-details .portfolio-info ul li+li {
